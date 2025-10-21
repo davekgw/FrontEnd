@@ -88,3 +88,19 @@ const getUsers = async () => {
     }
 }
 getUsers();
+
+//Use Axios
+//npm install axios
+// import axios from 'axios';
+// const getUsersAxios = async () => {
+//     try {
+//         const response = await axios.get('https://jsonplaceholder.typicode.com/users');
+//         const data = response.data;
+//         data.forEach(user => console.log(user.name));
+//     } catch (error) {
+//         console.log(error);
+//     }
+// }
+// getUsersAxios();
+// --- IGNORE ---
+// console.log("Script Selesai");
